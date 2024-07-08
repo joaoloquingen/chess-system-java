@@ -1,7 +1,5 @@
 package application;
 
-import boardgame.Position;
-
 import java.util.Locale;
 
 public class Program {
@@ -9,8 +7,5 @@ public class Program {
 
         Locale.setDefault(Locale.US);
 
-        Position pos = new Position(3, 5);
-        System.out.println(pos);
-        System.out.println();
     }
 }
