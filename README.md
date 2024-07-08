@@ -12,5 +12,5 @@ Este é um sistema de jogo de xadrez desenvolvido em Java como parte de um proje
 1. **Clonar o Repositório**
 
    ```bash
-   git clone https://github.com/joaoloquingen/chess-system.git
-   cd chess-system
+   git clone https://github.com/joaoloquingen/chess-system-java.git
+   cd chess-system-java
