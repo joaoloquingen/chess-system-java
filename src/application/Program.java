@@ -6,7 +6,6 @@ import chess.ChessPiece;
 import chess.ChessPosition;
 
 import java.util.InputMismatchException;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
@@ -18,7 +17,7 @@ public class Program {
         while (true) {
             try {
                 UI.clearScreen();
-                UI.printBoard(chessMatch.getPieces());
+                UI.printMatch(chessMatch);
                 System.out.println();
                 System.out.print("Source: ");
                 ChessPosition source = UI.readChessPosition(sc);
